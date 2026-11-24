@@ -1,0 +1,17 @@
+,accuracy,accuracy,dp_gap,dp_gap,eo_gap,eo_gap
+,mean,std,mean,std,mean,std
+model,,,,,,
+DecisionTree,0.853,0.002,0.153,0.009,0.08,0.026
+DecisionTree + ThresholdOpt,0.841,0.002,0.094,0.011,0.03,0.023
+HistGB,0.869,0.003,0.182,0.008,0.086,0.018
+HistGB + ThresholdOpt,0.857,0.002,0.111,0.01,0.027,0.027
+LightGBM,0.869,0.003,0.182,0.008,0.084,0.018
+LightGBM + ThresholdOpt,0.856,0.003,0.123,0.008,0.039,0.026
+LogReg,0.848,0.002,0.185,0.008,0.106,0.021
+LogReg + ThresholdOpt,0.831,0.001,0.089,0.009,0.03,0.013
+MLP,0.822,0.004,0.192,0.016,0.101,0.016
+MLP + ThresholdOpt,0.814,0.005,0.139,0.006,0.058,0.015
+RandomForest,0.851,0.003,0.187,0.009,0.095,0.021
+RandomForest + ThresholdOpt,0.852,0.004,0.171,0.014,0.082,0.034
+XGBoost,0.865,0.002,0.185,0.011,0.083,0.018
+XGBoost + ThresholdOpt,0.855,0.002,0.133,0.011,0.031,0.015
